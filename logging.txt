@@ -12,22 +12,22 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 50,
-    "name": "Jane Smith",
+    "name": "Sangeetha",
     "phone_number": "(+91) 983 893 3937",
-    "address": "<address>",
+    "address": "123, Main Street, City",
     "types": [
         "shoe park",
         "shop"
     ],
     "website": "http://google.com",
-    "language": "French",
+    "language": "English",
     "location": {
         "lat": "-38.383494",
         "lng": "33.427362"
     }
 }
 HTTP/1.1 200 OK
-Date: Sun, 15 Feb 2026 02:08:55 GMT
+Date: Mon, 16 Feb 2026 04:17:33 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Strict-Transport-Security: max-age=604800; includeSubDomains
 Access-Control-Allow-Origin: *
@@ -41,10 +41,650 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "f6af58f5962904f0cf34e3f7c4572734",
+    "place_id": "8e0b7bf07a52673837432df4cf9c91c7",
     "scope": "APP",
-    "reference": "696f8f53eff1ec85feddbf6a47e3ef6f696f8f53eff1ec85feddbf6a47e3ef6f",
-    "id": "696f8f53eff1ec85feddbf6a47e3ef6f"
+    "reference": "d681a651ecabc532eff2142271b59e14d681a651ecabc532eff2142271b59e14",
+    "id": "d681a651ecabc532eff2142271b59e14"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=8e0b7bf07a52673837432df4cf9c91c7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=8e0b7bf07a52673837432df4cf9c91c7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:17:35 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": null
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:17:38 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:24:05 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "4117fa5bd78e8fcc10d100d0120f3233",
+    "scope": "APP",
+    "reference": "778bc3ddaa6c389f6e7d4861cf84b9ac778bc3ddaa6c389f6e7d4861cf84b9ac",
+    "id": "778bc3ddaa6c389f6e7d4861cf84b9ac"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4117fa5bd78e8fcc10d100d0120f3233
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4117fa5bd78e8fcc10d100d0120f3233
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:24:07 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": null
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:24:10 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:25:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "7cc47ae07c0387bb6e62720e34cfcc3b",
+    "scope": "APP",
+    "reference": "167992b3c135568d64aed317e8560650167992b3c135568d64aed317e8560650",
+    "id": "167992b3c135568d64aed317e8560650"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=7cc47ae07c0387bb6e62720e34cfcc3b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=7cc47ae07c0387bb6e62720e34cfcc3b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:25:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": null
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:25:28 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:26:46 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1de06c9f7619f3ef17d4263b55a1202d",
+    "scope": "APP",
+    "reference": "6c80542ff8baf6c49bd5bf932eab6b176c80542ff8baf6c49bd5bf932eab6b17",
+    "id": "6c80542ff8baf6c49bd5bf932eab6b17"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1de06c9f7619f3ef17d4263b55a1202d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1de06c9f7619f3ef17d4263b55a1202d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:26:48 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": null
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:26:51 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:27:40 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1a8fd80b5192355928919d268c34812c",
+    "scope": "APP",
+    "reference": "47c3b721c5d9cbe11f9a86cd5dc067a447c3b721c5d9cbe11f9a86cd5dc067a4",
+    "id": "47c3b721c5d9cbe11f9a86cd5dc067a4"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1a8fd80b5192355928919d268c34812c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1a8fd80b5192355928919d268c34812c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:27:43 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": null
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:27:45 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:29:30 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f10e3f354b4b509b3ed86d4649f16778",
+    "scope": "APP",
+    "reference": "12b19cf3734a597e5c87b6c15b46d55412b19cf3734a597e5c87b6c15b46d554",
+    "id": "12b19cf3734a597e5c87b6c15b46d554"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f10e3f354b4b509b3ed86d4649f16778
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f10e3f354b4b509b3ed86d4649f16778
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:29:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f10e3f354b4b509b3ed86d4649f16778"
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:29:36 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -75,7 +715,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Sun, 15 Feb 2026 02:10:57 GMT
+Date: Mon, 16 Feb 2026 04:30:17 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Strict-Transport-Security: max-age=604800; includeSubDomains
 Access-Control-Allow-Origin: *
@@ -89,10 +729,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "49d8275c3664980bbdeac4fc95f38e43",
+    "place_id": "8188fe87d0a4a803a536de28be2e6803",
     "scope": "APP",
-    "reference": "c815247b372c931cb2fbfccf582ada42c815247b372c931cb2fbfccf582ada42",
-    "id": "c815247b372c931cb2fbfccf582ada42"
+    "reference": "ac3ace4a9c28b86bcbd1e723ff9f0b0bac3ace4a9c28b86bcbd1e723ff9f0b0b",
+    "id": "ac3ace4a9c28b86bcbd1e723ff9f0b0b"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -110,7 +750,7 @@ Body:
     "accuracy": 50,
     "name": "Sangeetha",
     "phone_number": "(+91) 983 893 3937",
-    "address": "<address>",
+    "address": "123, Main Street, City",
     "types": [
         "shoe park",
         "shop"
@@ -123,7 +763,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Sun, 15 Feb 2026 02:10:59 GMT
+Date: Mon, 16 Feb 2026 04:30:20 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Strict-Transport-Security: max-age=604800; includeSubDomains
 Access-Control-Allow-Origin: *
@@ -137,10 +777,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "b4a6065ff27e57968bb2a74295d65d9a",
+    "place_id": "e43b55c6405868cd3c23816ef6bb50c7",
     "scope": "APP",
-    "reference": "ffd6d0464bf41d50afdb18130dd3cc8affd6d0464bf41d50afdb18130dd3cc8a",
-    "id": "ffd6d0464bf41d50afdb18130dd3cc8a"
+    "reference": "e63d6177afad93ccb42dc22b240a0381e63d6177afad93ccb42dc22b240a0381",
+    "id": "e63d6177afad93ccb42dc22b240a0381"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -158,7 +798,7 @@ Body:
     "accuracy": 50,
     "name": "John Doe",
     "phone_number": "(+91) 983 893 3937",
-    "address": "<address>",
+    "address": "456, Elm Street, Town",
     "types": [
         "shoe park",
         "shop"
@@ -171,7 +811,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Sun, 15 Feb 2026 02:11:00 GMT
+Date: Mon, 16 Feb 2026 04:30:21 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Strict-Transport-Security: max-age=604800; includeSubDomains
 Access-Control-Allow-Origin: *
@@ -185,10 +825,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "2b616d987617c08b2cc555a9e05693c0",
+    "place_id": "38903450d611e41a894ff60705701460",
     "scope": "APP",
-    "reference": "c6d7b1c28a05297b035f4cc4a1d924aec6d7b1c28a05297b035f4cc4a1d924ae",
-    "id": "c6d7b1c28a05297b035f4cc4a1d924ae"
+    "reference": "91dbdd4d185c2f500f0a914cea55116b91dbdd4d185c2f500f0a914cea55116b",
+    "id": "91dbdd4d185c2f500f0a914cea55116b"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -206,7 +846,7 @@ Body:
     "accuracy": 50,
     "name": "Jane Smith",
     "phone_number": "(+91) 983 893 3937",
-    "address": "<address>",
+    "address": "789, Oak Street, Village",
     "types": [
         "shoe park",
         "shop"
@@ -219,7 +859,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Sun, 15 Feb 2026 02:11:02 GMT
+Date: Mon, 16 Feb 2026 04:30:22 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Strict-Transport-Security: max-age=604800; includeSubDomains
 Access-Control-Allow-Origin: *
@@ -233,8 +873,1335 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "c316ccd5d784369e3b045e310b0431d5",
+    "place_id": "610bf1bc22a384462896dfca11dd0b2e",
     "scope": "APP",
-    "reference": "f7966346cba88c20dffab43649115702f7966346cba88c20dffab43649115702",
-    "id": "f7966346cba88c20dffab43649115702"
+    "reference": "e7bbdd4795914be22be7a1e212d08896e7bbdd4795914be22be7a1e212d08896",
+    "id": "e7bbdd4795914be22be7a1e212d08896"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:30:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "292ca9fb9d4f953d6562049a962f247c",
+    "scope": "APP",
+    "reference": "824924e4d682dbd36693e1b27a052513824924e4d682dbd36693e1b27a052513",
+    "id": "824924e4d682dbd36693e1b27a052513"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=292ca9fb9d4f953d6562049a962f247c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=292ca9fb9d4f953d6562049a962f247c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:30:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "292ca9fb9d4f953d6562049a962f247c"
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:30:28 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Frontline house",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "29, side layout, cohen 09",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French-IN",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:32:42 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "50d9aa01c340999e33545994a43c3cc8",
+    "scope": "APP",
+    "reference": "c6705c3367c526724ee7348f18dfe292c6705c3367c526724ee7348f18dfe292",
+    "id": "c6705c3367c526724ee7348f18dfe292"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:32:44 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "17d47ce7e0c9e8f188237c9ff8cbca79",
+    "scope": "APP",
+    "reference": "e51c81f67810bc921a9cc54570d26ae4e51c81f67810bc921a9cc54570d26ae4",
+    "id": "e51c81f67810bc921a9cc54570d26ae4"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "John Doe",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "456, Elm Street, Town",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:32:45 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "0e24da95efbef998907ce94d541f1c7a",
+    "scope": "APP",
+    "reference": "d89b7ea83d4825aa3574d1c5e5f9b5d2d89b7ea83d4825aa3574d1c5e5f9b5d2",
+    "id": "d89b7ea83d4825aa3574d1c5e5f9b5d2"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Jane Smith",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "789, Oak Street, Village",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:32:46 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ce36043ffa23772d0e65e2e2b68d177c",
+    "scope": "APP",
+    "reference": "ca6bb8231212e0dfec5ebb98ade6ac66ca6bb8231212e0dfec5ebb98ade6ac66",
+    "id": "ca6bb8231212e0dfec5ebb98ade6ac66"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:32:48 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "cbc1038b76fc3897a127eabec59ecc6c",
+    "scope": "APP",
+    "reference": "60a06f272ecad9c4aa75c7f829e2002060a06f272ecad9c4aa75c7f829e20020",
+    "id": "60a06f272ecad9c4aa75c7f829e20020"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=cbc1038b76fc3897a127eabec59ecc6c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=cbc1038b76fc3897a127eabec59ecc6c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:32:50 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "cbc1038b76fc3897a127eabec59ecc6c"
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:32:54 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "06b30a7825d3f0193c1c163501d8a46d",
+    "scope": "APP",
+    "reference": "12df02048920ddc7dfefd550a830510512df02048920ddc7dfefd550a8305105",
+    "id": "12df02048920ddc7dfefd550a8305105"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "John Doe",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "456, Elm Street, Town",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:26 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "4570f0a4f49710294620ce775f7a3398",
+    "scope": "APP",
+    "reference": "973f7451722205b72379bdc4131f519f973f7451722205b72379bdc4131f519f",
+    "id": "973f7451722205b72379bdc4131f519f"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Jane Smith",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "789, Oak Street, Village",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:27 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1490755c01b4b2c32394c4924a2a0075",
+    "scope": "APP",
+    "reference": "f38224b6c5d56fe638bba38a2efdc0c1f38224b6c5d56fe638bba38a2efdc0c1",
+    "id": "f38224b6c5d56fe638bba38a2efdc0c1"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:29 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "a8c544433f8ad9db2692f2747ad3df09",
+    "scope": "APP",
+    "reference": "bcba2a1a4684069eaf9c4b6cf06c718fbcba2a1a4684069eaf9c4b6cf06c718f",
+    "id": "bcba2a1a4684069eaf9c4b6cf06c718f"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "John Doe",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "456, Elm Street, Town",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:31 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f4751090718cbf113d6ecad2f4270d98",
+    "scope": "APP",
+    "reference": "68c35840ef8b21dd37e747b432c1433568c35840ef8b21dd37e747b432c14335",
+    "id": "68c35840ef8b21dd37e747b432c14335"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Jane Smith",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "789, Oak Street, Village",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:32 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "237b6ae46bb0fb08136c4763ddb0cde9",
+    "scope": "APP",
+    "reference": "dd28080d9f1e6efb628c5b50dc908e62dd28080d9f1e6efb628c5b50dc908e62",
+    "id": "dd28080d9f1e6efb628c5b50dc908e62"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:36 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "832257d1cf853ff91a74c2dfca08fdd4",
+    "scope": "APP",
+    "reference": "530c34d6d765ee64dbf25773b37e0616530c34d6d765ee64dbf25773b37e0616",
+    "id": "530c34d6d765ee64dbf25773b37e0616"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "John Doe",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "456, Elm Street, Town",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:38 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d8e9d36f64c06e3586c6208fe0f54baf",
+    "scope": "APP",
+    "reference": "f255a4f9f52a090657ab45b1c162956ff255a4f9f52a090657ab45b1c162956f",
+    "id": "f255a4f9f52a090657ab45b1c162956f"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Jane Smith",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "789, Oak Street, Village",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:34:39 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c86ff8970903676bf42228bed7015fec",
+    "scope": "APP",
+    "reference": "fbd234c5aa1e15909122bc894846d96cfbd234c5aa1e15909122bc894846d96c",
+    "id": "fbd234c5aa1e15909122bc894846d96c"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:35:07 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "87f1b76d74f25863ee3800a8f28ff726",
+    "scope": "APP",
+    "reference": "6e696076e0d10ccb2f576ee694c1c2e46e696076e0d10ccb2f576ee694c1c2e4",
+    "id": "6e696076e0d10ccb2f576ee694c1c2e4"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "John Doe",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "456, Elm Street, Town",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "Spanish",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:35:10 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "df378a5d631b1be29e0346df6c11564f",
+    "scope": "APP",
+    "reference": "9794fc409339be8eed32fb67853e98219794fc409339be8eed32fb67853e9821",
+    "id": "9794fc409339be8eed32fb67853e9821"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Jane Smith",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "789, Oak Street, Village",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 04:35:11 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d2d6ad63fc09e6649ebbd41243a49fa9",
+    "scope": "APP",
+    "reference": "6e0a93b1cd5f63dd48652a9a887e4f976e0a93b1cd5f63dd48652a9a887e4f97",
+    "id": "6e0a93b1cd5f63dd48652a9a887e4f97"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:00:04 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "e84fc80aa360c3e269390345831e0202",
+    "scope": "APP",
+    "reference": "26ba98153105268a679e0ce213b12f6b26ba98153105268a679e0ce213b12f6b",
+    "id": "26ba98153105268a679e0ce213b12f6b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e84fc80aa360c3e269390345831e0202
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=e84fc80aa360c3e269390345831e0202
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:00:06 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:00:53 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "8b02d0056f67eb9ae3bd724697d096cc",
+    "scope": "APP",
+    "reference": "e7f8ef7b4073b79ae637bd0f90caf586e7f8ef7b4073b79ae637bd0f90caf586",
+    "id": "e7f8ef7b4073b79ae637bd0f90caf586"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=8b02d0056f67eb9ae3bd724697d096cc
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=8b02d0056f67eb9ae3bd724697d096cc
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:00:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "8b02d0056f67eb9ae3bd724697d096cc"
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:00:58 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    }
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:06:00 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "7b37e9ee3320bb1d77f7e986171a1a5f",
+    "scope": "APP",
+    "reference": "4637ed8a55ac16e4c5f384496eac639b4637ed8a55ac16e4c5f384496eac639b",
+    "id": "4637ed8a55ac16e4c5f384496eac639b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=7b37e9ee3320bb1d77f7e986171a1a5f
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=7b37e9ee3320bb1d77f7e986171a1a5f
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:06:02 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeetha",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "123, Main Street, City",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "7b37e9ee3320bb1d77f7e986171a1a5f"
+}
+HTTP/1.1 200 OK
+Date: Mon, 16 Feb 2026 05:06:05 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
 }

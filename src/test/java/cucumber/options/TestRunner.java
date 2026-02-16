@@ -9,7 +9,9 @@ import io.cucumber.junit.CucumberOptions;
     features = "src/test/java/features",
     glue = "stepDefinitions",
     plugin = {"pretty", "html:target/cucumber-reports.html"},
-    monochrome = true
+    monochrome = true,
+    //tags = "not @ignore"  // The 'not' keyword skips the tagged scenario
+    tags = "@DeletePlace"  // Run scenarios tagged with either @addPlace, @getPlace, or @deletePlace
 )
 public class TestRunner {
 }

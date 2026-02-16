@@ -9,6 +9,8 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class Utils {
@@ -35,6 +37,13 @@ public class Utils {
 		FileInputStream input = new FileInputStream("src/test/java/resources/global.properties");
 		prop.load(input);
 		return prop;
+	}
+	
+	public static String getValuefromJson(Response response, String key) {
+		JsonPath js = new JsonPath(response.asString());
+		String value = js.get(key).toString();
+		System.out.println(value);
+		return value;
 	}
 
 }
