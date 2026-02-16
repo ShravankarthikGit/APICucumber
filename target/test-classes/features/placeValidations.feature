@@ -2,7 +2,6 @@ Feature: Validating PLace API's
 
 # In here we have AddPlaceAPI passed as parameter in step definition and we can reuse the same step definition for other
 # API's as well by just changing the parameter value in feature file
-@ignore
 @AddPlace
 Scenario: Verify if place is being added using add place api
 	Given Add Place payload
